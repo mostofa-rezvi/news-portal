@@ -13,7 +13,7 @@ app.use(cors());
 app.use(express.json());
 
 // Database Connection
-const sequelize = new Sequelize("news", "root", "123456", {
+const sequelize = new Sequelize("news", "root", "qwerty", {
   host: "localhost",
   dialect: "mysql",
   logging: false,
